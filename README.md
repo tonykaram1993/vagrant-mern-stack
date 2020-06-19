@@ -232,8 +232,6 @@ This starts a server and listens on port 8080 for connections. The app responds 
 
 [Vagrant](https://github.com/kimmobrunfeldt/vagrant) is used to create a virtual machine where the project will run. This unifies the environment between different developpers and minimizes the environment difference from production builds. The machine is accessible through 192.168.33.10 (can be configured from inside Vagrantfile). MySQL is installed on this virtual machine automatically when the machine is provisioned.
 
-### VSCode + ESLint + Prettier
-
 [VSCode](https://code.visualstudio.com/) is a lightweight but powerful source code editor. [ESLint](https://eslint.org/) takes care of the code-quality. [Prettier](https://prettier.io/) takes care of all the formatting.
 
 #### Installation guide
