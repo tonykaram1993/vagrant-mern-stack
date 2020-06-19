@@ -1,0 +1,9 @@
+{
+  "workbench.colorCustomizations": {
+    "scrollbarSlider.background": "#ffffff11",
+    "activityBar.background": "#0A350F",
+    "titleBar.activeBackground": "#0E4A14",
+    "titleBar.activeForeground": "#F2FCF3"
+  },
+  "git.ignoreLimitWarning": true
+}

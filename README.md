@@ -20,6 +20,7 @@ This is a boilerplate to build a full stack web application using React, Node.js
     - [Nodemon](#nodemon)
     - [Express](#express)
     - [Concurrently](#concurrently)
+    - [Vagrant](#vagrant)
     - [VSCode + ESLint + Prettier](#vscode--eslint--prettier)
       - [Installation guide](#installation-guide)
 
@@ -226,6 +227,10 @@ This starts a server and listens on port 8080 for connections. The app responds 
 "server": "nodemon src/server/index.js",
 "dev": "concurrently \"npm run server\" \"npm run client\""
 ```
+
+### Vagrant
+
+[Vagrant](https://github.com/kimmobrunfeldt/vagrant) is used to create a virtual machine where the project will run. This unifies the environment between different developpers and minimizes the environment difference from production builds. The machine is accessible through 192.168.33.10 (can be configured from inside Vagrantfile). MySQL is installed on this virtual machine automatically when the machine is provisioned.
 
 ### VSCode + ESLint + Prettier
 
